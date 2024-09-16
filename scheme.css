@@ -1,0 +1,59 @@
+.logoImg {
+    width: 20%;
+    height: fit-content;
+}
+
+.bg-red {
+    background-color: #2b4e71;
+}
+.page_block {
+    background-position-x: fixed;
+    overflow-x: hidden;
+}
+.heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 114.3%;
+    text-align: center;
+    color: #2b4e71;
+}
+.txtstyle {
+    color: #83a2c1;
+    text-decoration: none;
+}
+.txtstyle:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.active {
+    color: #fff;
+}
+.p-10{
+    padding: 10px;
+    padding-top: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.cardstyle{
+    border-radius: 10% !important;
+    height: 300px;
+    border: 2px inset rgba(126, 126, 126, 0.253) !important;
+}
+.imgstyle{
+    border-radius: 10% !important;
+    height: 80%;
+    width: auto;
+}
+.grad{
+    background: linear-gradient(to right,
+    indigo,
+    green,
+    yellow,
+    red,
+    rgb(229, 61, 89),
+    purple);
+    -webkit-background-clip: text;
+    color: transparent;
+}
