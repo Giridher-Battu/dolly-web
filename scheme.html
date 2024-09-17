@@ -33,7 +33,7 @@
             </div>
             <div class="mt-20 p-10 row align-items-start">
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/Livestock.jpg" alt="Farming Logo">
                         <div class="card-body">
                           <p class="card-text" style=" text-align: center; font-weight: bold; color: rgb(14, 83, 14); ">Farming</p>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/TeacherLogo.jpeg" alt="Teacher Logo">
                         <div class="card-body">
                           <p class="card-text" style="text-align: center; font-weight: bold; color: rgb(129, 129, 169);" >Teaching</p>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/FilmMaking.jpg" alt="Filmmaking Logo">
                         <div class="card-body">
                           <p class="card-text" style="text-align: center; font-weight: bold; color: rgb(11, 10, 10); ">FilmMaking</p>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/Photography.webp" alt="Photography Logo">
                         <div class="card-body">
                           <p class="card-text grad" style="text-align: center; font-weight: bold;">Photography</p>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/Sports.jpeg" alt="Sports Logo">
                         <div class="card-body">
                           <p class="card-text" style="text-align: center; font-weight: bold; color: rgb(123, 118, 118);" >Sports</p>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3 mt-10">
-                    <div class="card cardstyle">
+                    <div class="card cardstyle" style="cursor: pointer;" onclick="navigateToTablePage()">
                         <img class="card-img-top imgstyle" src="Assets/Images/Cooking.png" alt="Cooking Logo">
                         <div class="card-body">
                           <p class="card-text" style="text-align: center; font-weight: bold; color: rgb(254, 74, 74);">Cooking</p>
@@ -81,6 +81,11 @@
                     </div>
                 </div>
             </div>
+            <script>
+                function navigateToTablePage() {
+                    window.location.href = 'table.html'; // The page you want to navigate to
+                }
+            </script>
         </div>
     </body>
 </html>
