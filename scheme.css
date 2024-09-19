@@ -40,6 +40,7 @@
     border-radius: 10% !important;
     height: 300px;
     border: 2px inset rgba(126, 126, 126, 0.253) !important;
+    box-shadow: 3px 3px 3px #060606;
 }
 .imgstyle{
     border-radius: 10% !important;
@@ -56,4 +57,10 @@
     purple);
     -webkit-background-clip: text;
     color: transparent;
+}
+.cardstyle:hover{
+    transform: scale(1.02);
+}
+.mt23{
+    margin-top: 80px;
 }
